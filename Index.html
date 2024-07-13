@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Animation Example</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/index.css">
+
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img width="100%" src="./assets/Images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Why Choose Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link login-btn" style="border: 1px solid white;" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <section class="background-image">
+    <div class="content">
+      <h1 style="font-size: 60px;">Pellentesque tristique tortor 
+        et ante sollicitudin</h1>
+      <p>Nulla non convallis dolor. Praesent ut erat massa. Morbi et euismod enim</p>
+      <div style="margin-top: 30px;"><a href="#" style="background-color: #7FEBCB;padding:15px;color: black;">Get Started <span  style="margin-left: 10px;" ><img src="./assets/Images/Vector 180.png" alt=""><span style="background-color: #00ffb9; border-radius: 100%;"></span></span></a>
+      </div>
+    </div>
+    <div class="green-background"></div>
+  </section>
+
+ 
+  <section class="new-section" style="margin-top: 10%;">
+    <div class="container mt-5">
+      <div class="row mt-5">
+      
+        <div class="col-md-6">
+          <div class="image-container">
+            <img src="./assets/Images/animation-perticle.png" alt="First Image" class="img-fluid1">
+            <img src="./assets/Images/welcome-image.png" alt="Second Image" class="img-fluid2">
+          </div>
+          <img src="./assets/Images/youtube-icon.png" alt="Logo" class="logo1">
+        </div>
+      
+        <div class="col-md-6">
+          <div class="para">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at lectus leo. Vestibulum consequat tempus risus a viverra. Mauris mollis pretium fringilla. Phasellus egestas placerat ornare. Vestibulum non pulvinar nunc. Aliquam id lobortis enim. Aliquam viverra est lectus, quis cursus elit blandit in.</p>
+            <div style="margin-top: 30px;"><a href="#" style="background-color: #7FEBCB;padding:15px;color: black;">Learn More<span  style="margin-left: 10px;" ><img src="./assets/Images/Vector 180.png" alt=""><span style="background-color: #00ffb9; border-radius: 100%;"></span></span></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+   
+   
+
+  <section class="circle-animation">
+    <div class="text-area">
+      <h3 >Winning is easy</h3>
+      <h1>Expect More.</h1>
+  </div>
+    <div class="circle">
+        <div class="logo-container">
+            <div class="logo-animation">
+              <img src="/assets/Images/aylogo.png" alt="one"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-area1">
+       <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima sint magni delectus.</h3>
+    </div>
+</section>
+  
+
+
+  
+    <section class="counter-section">
+    <div class="cn-container">
+      <div class="cn-section" data-year="5 Years" data-amount="$ 60,000,000"></div>
+      <div class="cn-section" data-year="8 Years" data-amount="$ 80,000,000"></div>
+      <div class="cn-section" data-year="10 Years" data-amount="$ 100,000,000"></div>
+  </div>
+  
+  <div class="cn-counter-block">
+      <h1>Just in the Last <span id="years">5 Years</span>:</h1>
+      <p id="amount">$ 60,000,000 Recovered</p>
+  </div>
+  </section>
+
+  <div class="container approach" style="margin-top: 30px;">
+    <div class="row mt-5" id="approach_box">
+      
+        <div class="col-6" id="image_cont">
+          <h2 style="font-size: 30px;">Our Approach in 3 Steps</h2>
+            <img id="approachImage" width="100%"  src="assets/Images/Group 21999.png" alt="Illustration" class="img-fluid">
+        </div>
+        <div class="col-6">
+            <div id="step1" class="step" onmouseover="showStep(1)">
+                <h3>1. Morbi et euismod enim</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at lectus. Mauris mollis pretium fringilla. Phasellus egestas placerat ornare.</p>
+            </div>
+            <div id="step2" class="step" onmouseover="showStep(2)">
+                <h3>2. Praesent ut erat</h3>
+                <p>Phasellus egestas placerat ornare. Vestibulum non pulvinar nunc. Aliquam id lobortis enim.</p>
+            </div>
+            <div id="step3" class="step" onmouseover="showStep(3)">
+                <h3>3. Vestibulum venenatis</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at lectus leo. Vestibulum consequat tempus risus a viverra.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="image-movement" style="margin-top: 100px;">
+    <img src="./assets/Images/article-slide1.png" alt="Image 1" class="moving-image">
+    <img src="./assets/Images/article-slide2.png" alt="Image 2" class="moving-image">
+    <img src="./assets/Images/article-slide3.png" alt="Image 3" class="moving-image">
+    <div class="button_learn" style="position: relative; bottom: 0; left: 40%; margin-bottom: 10px;" >
+<span style="font-size: 40px; color: white;">Our Latest</span>
+<p style="font-size: 40px; color: white; margin-left: 10%; color: #00ffb9;">Articles</p>
+      <div style="margin-top: 30px;"><a href="#" style="background-color: none; border: 1px solid white; padding:15px;color: white;">Learn More<span style="margin-left: 10px;" ><img src="./assets/Images/Vector 180.png" alt=""><span style="background-color: #00ffb9; border-radius: 100%;"></span></span></a>
+    
+      </div>
+    
+    </div>
+   
+</section>
+
+
+<div id="testimonial-slider" style="position: relative; top: 10%; margin-bottom: 10px;" class="splide">
+    <div class="test-head">
+        <h2>Testimonials</h2>
+        <p>“I was treated with care, kindness, and gentleness. They were extremely professional and fun to be around. It was a great experience from top to bottom and I’d highly recommend them for anyone looking for that confirmation”</p>
+    
+    </div>
+   
+    <div class="splide__track" style="margin-top: 100px;">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <div class="testimonial">
+            <div>
+              <img src="./assets/Images/testimonial-profile1.png" alt="Person 1">
+              <img style="max-width: 80px; width: 100%;" src="./assets/Images/Ellipse 328.png" alt="Person 2">
+              <img style="max-width: 80px; width: 100%;" src="assets/Images/Ellipse 329.png" alt="Person 3">
+            </div>
+            <div class="name">John S.</div>
+          </div>
+        </li>
+        <!-- Add more slides as needed -->
+      </ul>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-4">
+          <div class="footer-logo">
+            <img src="./assets/Images/logo.png" alt="Logo" class="img-fluid">
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at lectus leo. Vestibulum consequat tempus risus a viverra. Mauris mollis pretium fringilla.</p>
+        </div>
+        <div class="col-md-4 footer-menu">
+          <h5>Menu</h5>
+          <a href="#">Home</a>
+          <a href="#">Our Services</a>
+          <a href="#">Why Choose Us</a>
+          <a href="#">About Us</a>
+          <a href="#">Blogs</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Contact</h5>
+          <p>Phone: +971 50 462 9821</p>
+          <p>Email: info@logoipsums.com</p>
+          <p>logoipsum<br>Plot No. 3 DIP<br>Industrial Building 23<br>Warehouse Unit 1 DIP India</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        © 2024 logoipsum
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script src="/index.js"></script>
+
+</body>
+</html>
